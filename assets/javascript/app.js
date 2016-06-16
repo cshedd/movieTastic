@@ -10,7 +10,7 @@ $(document).ready(function() {
 	function displayMovie() {
 
 		var movie = $(this).attr('data-movie');
-		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=dc6zaTOxFJmzC&limit=1";  //turns movie into string
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=dc6zaTOxFJmzC";  //turns movie into string
 
 
 		//Creates AJAX call for specific movie and parse into object
