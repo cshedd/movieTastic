@@ -1,0 +1,94 @@
+/*style all elements*/
+* {
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/*style header text*/
+h1 {
+	padding-top: 20px;
+	width: 20%;
+	height: 80px;
+	border-style: solid;
+	border-width: 5px;
+	font-weight: 700;
+	font-size: 25pt;
+	text-align: center;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+/*add button section*/
+.addSection {
+	text-align: center;
+	height: 80px;
+	width: 100%;
+	padding-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*search box for user*/
+.searchBox {
+	border-style: solid;
+	height: 25px;
+	border-width: 3px;
+}
+/*button to submit search box for user*/
+.addButton {
+	font-weight: 700;
+	border-style: solid;
+	border-width: 3px;
+	height: 25px;
+	border-radius: 25px;
+}
+
+/*title of giphy button section*/
+.subTitle {
+	padding-bottom: 10px;
+	font-weight: 700;
+	color: #DDA0DD;
+	padding-top: 10px;
+}
+
+/*all buttons in website*/
+button {
+	font-weight: 700;
+	color: black;
+	border-style: solid;
+	border-width: 3px;
+	height: 30px;
+	border-radius: 25px;
+	display: inline-block;
+	margin: 5px;
+}
+/*rating text generated for giphys*/
+.rating {
+	padding-bottom: 5px;
+	font-weight: 700;
+}
+/*whole section to hold all buttons existing & created*/
+.buttonSection {
+	text-align: center;
+	width: 100%;
+	min-height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*text in footer*/
+.footerText {
+	padding-top: 25px
+}
+/*footer section*/
+footer {
+	font-weight: 700;
+	font-size: 18pt;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
