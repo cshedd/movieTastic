@@ -57,7 +57,7 @@ $(document).ready(function() {
 		// User movie entry set to this variable
 		var movieToAdd = $(this).text();
 		// User movie entry to put into Giphy API query
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + movieToAdd + "&api_key=dc6zaTOxFJmzC&limit=10";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movieToAdd + "&api_key=dc6zaTOxFJmzC&limit=10";
 	
 		// Check console
 		console.log(queryURL)
